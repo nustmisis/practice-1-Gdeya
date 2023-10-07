@@ -10,4 +10,4 @@ num = str(input())
 sum = 0
 for digit in num:
     sum+=int(digit)
-print(sum)
+print(" + ".join(num) + f" = {sum}")
